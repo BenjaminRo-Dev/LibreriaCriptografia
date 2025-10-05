@@ -3,8 +3,8 @@ import Foundation
 
 let config: ConfiguracionCripto = ConfiguracionCripto(
     alfabeto: "ABCDEFGHIJKLMNOPQRSTUVWXYZ ",
-    conservarMayusculas: false,
-    incluirCaracteresEspeciales: false
+    conservarMayusculas: true,
+    incluirCaracteresEspeciales: true
 )
 
 let mensaje = "Hola mundo"

@@ -14,7 +14,7 @@ class AnalizadorFrecuencia {
 
     static func imprimirAnalisis(_ texto: String) {
         let analisis = analizar(texto)
-        print("\n📊 Análisis de Frecuencia:")
+        print("\n Análisis de Frecuencia:")
         for (letra, porcentaje) in analisis {
             print("\(letra): \(String(format: "%.2f", porcentaje))%")
         }
