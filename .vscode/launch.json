@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Criptografia}",
+            "name": "Debug Criptografia",
+            "program": "${workspaceFolder:Criptografia}/.build/debug/Criptografia",
+            "preLaunchTask": "swift: Build Debug Criptografia"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Criptografia}",
+            "name": "Release Criptografia",
+            "program": "${workspaceFolder:Criptografia}/.build/release/Criptografia",
+            "preLaunchTask": "swift: Build Release Criptografia"
+        }
+    ]
+}
