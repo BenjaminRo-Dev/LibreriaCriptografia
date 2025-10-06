@@ -6,7 +6,7 @@ class Cesar: Cripto {
     }
 
     func cifrar(_ texto: String, clave: String?) -> String {
-        // limpieza y validación usando la misma configuración
+        // limpieza y validación 
         let textoLimpio = Preprocesamiento.preparar(
             texto,
             usarAlfabeto: config.alfabeto,
